@@ -17,20 +17,23 @@ h1{
     color: rgb(216, 66, 1);
     margin-left: 130px;
 }
-a{
+/* a{
     color: rgb(0, 0, 0);
-    font-size: large;
     margin-left: 20px;
-}
+    font-family: sans-serif;
+} */
 input{
     height: 45px;
-    width: 300px;
-    background-color: rgb(225, 225, 225);
-    border: none;
+    width: 330px;
+    border-bottom: 2px solid rgb(0, 126, 146);;
+    border-radius: 2px;
     margin: 5px;
     margin-bottom: 20px;
     font-size: larger;
-    margin-left: 20px;
+    margin-left: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
     
 }
 button{
@@ -50,8 +53,9 @@ button:hover{
 }
 .rel{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(14, 14, 197);
+    font-family: sans-serif;
 }
 .rel:hover{
     color: rgb(255, 106, 0);
@@ -59,5 +63,11 @@ button:hover{
 }
 
 .link{
-    font-size: 25px;
+    font-size: 20px;
+    margin-left: 35px;
 }
+::placeholder{
+    font-size: 20px;
+    font-style: normal;
+}
+
